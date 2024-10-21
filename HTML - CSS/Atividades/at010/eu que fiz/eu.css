@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@font-face{
+  font-family:'idroid';
+  src: url('fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: #84E1AD;
+  margin: 0px;
+  padding-top: 0px;
+
+}
+
+header{
+  text-align: center;
+  background-image: linear-gradient(to bottom, #39CF7B, #227949, #1A5C38 );
+  padding-top: 10px;
+  color: white;
+}
+
+nav{
+  padding-right: 700px;
+}
+
+nav > a{
+  color: white;
+  text-decoration: none;
+  padding:0px 60px 2px 70px;
+  display: inline-block;
+  background-color: rgb(25, 158, 54);
+  border: 2px solid black;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+}
+nav > a:visited{
+  color: rgb(32, 34, 170);
+  
+}
+
+nav > a:hover{
+  text-decoration: underline;
+}
+
+main{
+  background-color: aliceblue;
+  color: rgba(32, 177, 129, 0.753);
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px rgba(59, 73, 63, 0.671);
+  width: 1080px;
+  padding: 10px;
+  margin: auto;
+}
+
+.tituloprincipal {
+ text-align: center;
+ color: white;
+}
+
+img{
+  width: 1080px;
+  padding: 10px;
+}
+
+h1{
+  text-align: left;
+  color: rgba(27, 100, 76, 0.644);
+}
+
+h2{
+  text-align: left;
+}

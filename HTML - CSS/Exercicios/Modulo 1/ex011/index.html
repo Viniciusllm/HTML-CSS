@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mídias em HTML5</title>
+</head>
+<body>
+  <h1>Imagem dinâmica</h1>  
+  <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+  <picture>
+    <!-- Serve para adaptar a tela dos usuarios serve para computador, tvs, celular e tablets 
+     Tag que usamos para adaptar: Picture - source media="(max-width: 000px)" srcset="" type=""-->
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+  </picture>
+
+  <h1>Reproduzindo Áudio</h1>
+  <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+  <audio src="midia/150 - Tory Lanez - Broke In A Minute.mp3" ></audio>
+  <!-- compativel com esses formatos MP3 WAV OGG -->
+
+  <audio preload="metadata" autoplay controls loop>
+    <source src="midia/057 - DJ Piu, Dj Henrique de Ferraz, MC Nego da Marcone - Beat Automotivo.mp3" type="audio/mpeg">
+    <source src="midia/150 - Tory Lanez - Broke In A Minute.mp3" type="audio/ogg">
+    <source src="midia/057 - DJ Piu, Dj Henrique de Ferraz, MC Nego da Marcone - Beat Automotivo.mp3" type="audio/wav">
+    <!-- Arquivo WAV é muito pesado para usar no site. -->
+    <p>infelizmente o seu navegador nao consegue reproduzir áudio. <a href="midia/150 - Tory Lanez - Broke In A Minute.mp3"> Clique aqui para baixar o arquivo MP3</a></p>
+  </audio>
+</body>
+</html>
