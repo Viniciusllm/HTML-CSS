@@ -1,0 +1,15 @@
+@charset "UTF-8";   
+
+body{
+    background: #000 url(wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+main{
+ background-color: aliceblue;
+ max-width: 750px;
+ padding: 10px;
+ margin: auto;
+ border-radius: 15px;
+ border: 2px solid rgb(71, 233, 144);
+}
